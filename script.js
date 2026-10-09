@@ -2,8 +2,8 @@
 const SITE_CONFIG = {
   name: "Birds Link Homestay",
   location: "Nagari Village, Joida, near Dandeli in Uttara Kannada, Karnataka (PIN 581186)",
-  phone: "918660334428",
-  alternatePhone: "919449916209",
+  phone: "8660334428",
+  alternatePhone: "9449916209",
   email: "Kumbhargautam7@gmail.com",
   googleMaps: "https://www.google.com/maps/search/?api=1&query=Nagari+Village%2C+Joida%2C+near+Dandeli%2C+Uttara+Kannada%2C+Karnataka+581186",
   instagram: "https://www.instagram.com/birds_link_homestay/?hl=en"
@@ -91,9 +91,9 @@ document.querySelectorAll("[data-instagram]").forEach((link) => {
 const heroImages = [...document.querySelectorAll(".hero-image")];
 const heroSlideCount = document.querySelector(".hero-count span");
 const heroSlides = [
-  "hero.jpg",
+  "hero-optimized.jpg",
   "kayaking.jpg",
-  "nature-walk.jpg",
+  "nature-walk-optimized.jpg",
   "hill-trail.jpg"
 ];
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
